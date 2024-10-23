@@ -1,7 +1,9 @@
 <?php
 
+use App\Models\Kategori;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Home\KategoriController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,10 +35,12 @@ Route::get('/paysuccess', function () {
     return view('pay.pay_succes.index');
 });
 
-Route::get('/add_kategori', function () {
-    return view('home.add_kategori.index');
-});
+// Route::get('/add_kategori', function () {
+//     return view('home.add_kategori.index');
+// });
 
 Route::get('/add_produk', function () {
     return view('home.add_produk.index');
 });
+
+Route::get('/add_kategori', [KategoriController::class, 'index'])->name('kategori');

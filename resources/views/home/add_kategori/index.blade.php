@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="addkategori.css">
 </head>
 <body>
-@include('home.head')
     <div class="container">
-    
+        <header class="header">
+            <div class="logo">MASPOS</div>
+            <div class="user-profile">
+                <span class="username">Taufik00</span>
+                <img src="profile-icon.png" alt="User Profile" class="profile-icon">
+            </div>
+        </header>
         <main class="main-content">
             <div class="form-container">
                 <h2>Add Category</h2>
