@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1976d2;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.payment-box {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    background-color: white;
+    color: #1976d2;
+    padding: 10px 20px;
+    border: 2px solid #1976d2;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-btn:hover {
+    background-color: #1976d2;
+    color: white;
+}

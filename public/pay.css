@@ -1,0 +1,141 @@
+/* General Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1976d2;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+header .user-info img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead th {
+    text-align: left;
+    padding: 10px;
+    background-color: #1976d2;
+    color: white;
+}
+
+tbody td {
+    padding: 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.product-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.product-details p {
+    color: #555;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qty-btn {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.total-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.total-section span {
+    font-weight: bold;
+    color: #1976d2;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.pay-btn {
+    background-color: #004ba0;
+}
+
+.back-btn {
+    background-color: white;
+    color: #1976d2;
+    border: 1px solid #1976d2;
+}
